@@ -4,6 +4,6 @@
   <h3>Adverb:</h3><input type="text" placeholder="adverb" [(ngModel)]="adverb">
 
   <p>
-  Angular is {{ noun | placeholder:"_____" }} fun! It is built using the {{ adverb | placeholder:"_____" }} design pattern.
+  Angular is {{ noun ? noun:"________" }} fun! It is built using the {{ adverb ? adverb:"________" }} design pattern.
   </p>
 </div>
